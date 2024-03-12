@@ -1,0 +1,25 @@
+*******************************************************************************************
+HGBookstore Basic Project Proposal Concept
+---------------------------
+
+Concept Idea
+My goal is to create a small online shopping store type program for like a store/website where you could go through a list of items you are adding to your cart to buy.
+In general you would add and store items and tell you the price of individual items, and in the the end add up the total of those items to give you the grand total.
+The program is basically like a online walmart or amazon account for a smaller scale store/small businesses that want to sell certain items, where you add things to your cart
+and from those you decide which ones you want to take off and what you want to checkout with at the end.  It is important because a lot of buying in this day and
+age is digital and making programs like these, especially for smaller businesses can be very important, specially if they may want it customized in a certain way.
+
+User Concept
+->Customers are going to be asked the process of a welcome to the store and have to give input if they wish to buy
+->Customers are going to Process input into what menu items from the store they want to buy
+->Customers will be updated with a shown output on items they added and let them remove if necessary
+->Customers will have the freedom and process to exit out if they wish so or if they are done buying with certain inputs
+->In the end all output for items names, ids, prices, and total price will be output to the customer with a thank you for buying from us message.
+
+Process Concept
+Step 1: Print(output) to the user a welcome to the store
+Step 2: Ask the if he is going to be shopping with us(Take a yes or a no that will initiate a while loop).
+Step 3: If yes, print a menu(some sort of switch case) where you have a list of items that you could add to your account or take off until the user decides to quit(sentinel value) or he is finished online shopping at your store.
+Step 4: After every item the user adds(inputs), update the user on their added items and total due, and ask if they wish to add another item or take off(going to increment the list to a stored variable).
+Step 5: After they exit, print all their items bought with the name, id, and price of the item, and the a grand total of all items(Seperate function that adds up all items).
+Step 6: Print(output) a thank you for purchasing from our store/website and we hope to see them soon.

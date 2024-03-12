@@ -1,0 +1,44 @@
+*******************************************************************************************
+Pseudocode for the basis of the HG Bookstore idea:
+---------------------------
+
+Step 1:  PRINT 
+Output a greeting message and ask how we can help.
+
+Step 2:  WHILE LOOP
+Have a while loop that will initiate the main menu.  There will be a sentinel value set to zero that will increment when needed in the program to finish the while loop.
+
+Step 3:  SWITCH CASE
+The main menu will include 4 options for users to pick from (input).  Adding books, removing books, checkout, and exiting.
+
+Step 4:  PROCESS
+Each option will vary on the process that the program will carry.
+
+Step 5:  CASE 1
+The Adding books option will essentially need a book class with basic getters and setters and a specialized constructor that can carry a name, ISBN, and price.  This is necessary because essentially I will be implementing the STL vector class in main to add to a collection of books.
+
+Step 5: CASE 1 (Cont.)SWITCH CASE(Another one, but smaller scale)
+I will need to add another small switch for the book catalog inside pre-existing one(main menu).  This one isn't really complex, just repetitive information about different types of books for letting the user input which one they want to add.
+
+Step 5: CASE 1 (Cont.)
+I will need some grand total variable that will accumulatively add a set-up price from each added book.  All the information will be printed from the specialized constructor and will use a for loop each time to update the user on their added books and total due.
+
+Step 6: CASE 2
+The Removing books option will, in essence, remove all books(Struggled to implement a way to remove an individual book from a constant list that has to be updated).
+
+Step 6: CASE 2(Cont.)
+Whatever was accumulated of grand total from added books will be also reset to 0, and will begin from it if any new books are added.
+
+Step 7: CASE 3 for Ending One
+The Checkout option will essentially for loop the list one more time to show your final list of books.  You will decide if you want to place an order or not.  If you agree to place an order, the sentinel value from earlier will increment, forcefully finishing the loop and exiting the main menu.
+
+Step 8:  CASE 4 (EXTRA for Ending Two)
+The Exiting option will forcefully increment the sentinel value.  This means you exit the bookstore without checking/buying books.  None of the previous CASE steps will occur.
+
+Step 9:  PRINT Ending One
+If the person bought at least one book, Print(output) a thank you for purchasing from our bookstore and we hope to see them soon.
+
+Step 10: PRINT Ending Two
+If the person bought no books at all, Print a message about being sorry to see them go like that.
+
+*******************************************************************************************
